@@ -35,7 +35,7 @@ class TotalPrice extends Component{
             <div className="totalPrice">
                 <h2>Total</h2>
                 <p>Items({totalQuantity})</p>
-                <p>Price {totalPrice}</p>
+                <p>Price: {totalPrice}</p>
             </div>
         )
     }

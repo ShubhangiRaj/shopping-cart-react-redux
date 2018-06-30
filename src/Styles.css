@@ -96,6 +96,9 @@
     border: none;
     font-size: 20px;
 }
+.cartUpdateBtns:focus{
+    outline: #fff;
+}
 .updateQuantityBox{
     border: 1px solid rgb(90, 90, 90);
     padding: 10px;

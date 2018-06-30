@@ -9,7 +9,9 @@ class OrderSummary extends Component{
         return(
             <div className="container">
                 <div className="goToCartButton">
-                    <Link to="/" className="navBtns">Home</Link>
+                    <div className="btnWrapper">
+                        <Link to="/" className="navBtns">Home</Link>
+                    </div>    
                 </div>
                 <div className="title">
                     <h2>Order Summary</h2>
